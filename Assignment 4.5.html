@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        .main-body{
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+        .parent-cont-top{
+            width: 100%;
+            height: 19%;
+            padding-left: 30px;
+            padding-top: 20px;
+        }
+        .heading1{
+            color: rgb(248, 79, 17);
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .p1{
+            color: white;
+        }
+        .parent-cont-bottom{
+            width: 100%;
+            height: 70%;
+            display: flex;
+            flex-direction: row;
+            padding-left: 30px;
+        }
+        .child-bottom-1-cont{
+            width: 28%;
+            height: 100%;
+            background-color: rgb(36, 35, 36);
+            margin-right: 20px;
+            border-radius: 15px;
+            padding: 20px;
+        }
+        .child-bottom-1-cont-1{
+            width: 100%;
+            height: 12%;
+            padding-left: 240px;
+        }
+        .child-bottom-1-cont-2{
+            width: 100%;
+            height: 16%;
+            display: flex;
+            flex-direction: row;
+            padding-top: 5px;
+        }
+        .heading2{
+            color: white;
+            font-size: 40px;
+        }
+        .p2{
+            margin-top: 10px;
+            color: white;
+            font-size: 13px;
+        }
+        .child-bottom-1-cont-3{
+            width: 100%;
+            height: 17%;
+            padding-top: 5px;
+        }
+        h4{
+            color: white;
+        }
+        .child-bottom-1-cont-4{
+            width: 100%;
+            height: 40%;
+            padding-left: 20px;
+        }
+        li{
+            color: white;
+        }
+        .child-bottom-1-cont-5{
+            width: 100%;
+            height: 12%;
+        }
+        .btn-1{
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            border: none;
+            background-color: white;
+            font-weight: 600;
+        }
+        .child-bottom-2-cont{
+            width: 28%;
+            height: 100%;
+            background-color: rgb(36, 35, 36);
+            margin-right: 20px;
+            border-radius: 15px;
+            padding: 20px;
+        }
+        .btn-2{
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            border: none;
+            background-color: rgb(248, 79, 17);
+            font-weight: 600;
+        }
+        .child-bottom-3-cont{
+            width: 28%;
+            height: 100%;
+            background-color:rgb(36, 35, 36);
+            border-radius: 15px;
+            padding: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main-body">
+        <div class="parent-cont-top">
+            <div><h1 class="heading1">Pricing Plans</h1> </div> 
+            <div><p class="p1">Every plan includes 30 day free trial</p></div>
+        </div>
+        <div class="parent-cont-bottom">
+            <div class="child-bottom-1-cont">
+                <div class="child-bottom-1-cont-1"> <img src="home (1).png" width="40px" height="40px"></div>
+                <div class="child-bottom-1-cont-2"> <h1 class="heading2">$10.00/</h1><p class="p2">Per Month</p></div>
+                <div class="child-bottom-1-cont-3"> <h4>Perfect for when you want to host your blog or a hobby side project.</h4></div>
+                <div class="child-bottom-1-cont-4"> 
+                    <ul>
+                    <li>2Core Xeon CPU</li> <br>
+                    <li>1 GB RAM </li> <br>
+                    <li>30 GB SSD</li>
+                    </ul>
+                </div>
+                <div class="child-bottom-1-cont-5"> <button class="btn-1">Get Started Today</button></div>
+            </div>
+            <div class="child-bottom-2-cont">
+                <div class="child-bottom-1-cont-1"> <img src="heart.png" width="40px" height="40px"></div>
+                <div class="child-bottom-1-cont-2"> <h1 class="heading2">$80.00/</h1><p class="p2">Per Month</p></div>
+                <div class="child-bottom-1-cont-3"> <h4>Perfect for hosting blogs with lots of traffic or heavy development projects.</h4></div>
+                <div class="child-bottom-1-cont-4">
+                    <ul>
+                        <li>8 Core Xeon CPU</li> <br>
+                        <li>8 GB RAM </li> <br>
+                        <li>300 GB SSD</li> <br>
+                        <li>Unlimited Transfer</li>
+                    </ul>
+                </div>
+                <div class="child-bottom-1-cont-5"> <button class="btn-2">Get Started Today</button></div>
+            </div>
+            <div class="child-bottom-3-cont">
+                <div class="child-bottom-1-cont-1"> <img src="block (1).png" width="40px" height="40px"></div>
+                <div class="child-bottom-1-cont-2"> <h1 class="heading2">$30.00/</h1><p class="p2">Per Month</p></div>
+                <div class="child-bottom-1-cont-3"> <h4>Perfect for hosting production websites & API services with high traffic load.</h4></div>
+                <div class="child-bottom-1-cont-4">
+                    <ul>
+                        <li>4 Core Xeon CPU</li> <br>
+                        <li>2 GB RAM </li> <br>
+                        <li>100 GB SSD</li> <br>
+                    </ul>
+                </div>
+                <div class="child-bottom-1-cont-5"> <button class="btn-1">Get Started Today</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

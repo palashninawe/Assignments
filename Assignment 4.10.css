@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 290vh;
+}
+.parent-cont-1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(119, 160, 251);
+    padding: 30px;
+}
+.main-body{
+     width: 100%;
+     height: 100%;
+     background-color: white;
+     border-radius: 15px;
+     padding: 20px;
+}
+.child-cont-1{
+    text-align: center;
+    margin-top: 20px;
+}
+.child-cont-2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.child-cont-3{
+    width: 100%;
+    height: 14%;
+    margin-top: 20px;
+    background-image: url(aeroplane4.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.child-cont-3-top{
+    color: white;
+}
+.child-cont-3-bottom{
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.child-cont-4{
+    width: 100%;
+    height: 14%;
+    margin-top: 20px;
+    background-image: url(Coffee2.avif);
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.child-cont-5{
+    width: 100%;
+    height: 14%;
+    margin-top: 20px;
+    background-image: url(Fruits.avif);
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.child-cont-6{
+    width: 100%;
+    height: 14%;
+    margin-top: 20px;
+    background-image: url(Laptop.avif);
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.child-cont-7{
+    width: 100%;
+    height: 14%;
+    margin-top: 20px;
+    background-image: url(nature2.avif);
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.child-cont-8{
+    width: 100%;
+    height: 14%;
+    margin-top: 20px;
+    background-image: url(interior2.avif);
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.parent-cont-2{
+    display: none;
+}
+
+@media (min-width:1024px) {
+    .parent-cont-1{
+        display: none;
+    }
+    html,body{
+        width: 100vw;
+        height: 200vh;
+    }
+    .parent-cont-2{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(119, 160, 251);
+        padding: 30px;
+    }
+    .child-cont-2{
+        text-align: center;
+    }
+    .child-cont-3{
+        width: 100%;
+        height: 20%;
+    }
+    .child-cont-3{
+        width: 100%;
+        height: 20%;
+        margin-top: 20px;
+        background-image: url(aeroplane3.jpg);
+        background-size: cover;
+    }
+    .child-cont-row-1{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .child-cont-4{
+        height: 100%;
+        width: 50%;
+    }
+    .child-cont-5{
+        width: 50%;
+        height: 100%;
+        margin-left: 20px;
+    }
+    .child-cont-6{
+        width: 100%;
+        height: 20%;
+        margin-top: 40px;
+        background-image: url(Laptop2.jpg);
+        background-size: cover;
+    }
+    .child-cont-row-2{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .child-cont-7{
+        width: 50%;
+        height: 100%;
+    }
+    .child-cont-8{
+        width: 50%;
+        height: 100%;
+        margin-left: 20px;
+    }
+}

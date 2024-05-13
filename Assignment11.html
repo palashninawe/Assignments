@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a885406e89.js" crossorigin="anonymous"></script>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .main-body{
+            width: 30%;
+            height: 100%;
+            border: 2px solid gray;
+        }
+        .top-cont{
+            width: 100%;
+            height: 45%;
+            background-image: url(oneplus3.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        .bottom-cont{
+            width: 100%;
+            height: 55%;
+        }
+        .child-b-t-cont{
+            width: 100%;
+            height: 80%;
+            padding: 20px;
+        }
+        .child-b-b-cont{
+            width: 100%;
+            height: 20%;          
+        }
+        .small-child-cont{
+            width: 100%;
+            height: 90%;
+            background-color: rgb(236, 234, 234);
+            opacity: 0.6;
+            padding-top: 2px;
+            padding-bottom: 1px;
+            padding-left: 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        ul{
+           margin-top: 10px;
+           width: 100%;
+           padding-left: 10px;
+        }
+        li{
+            margin-top: 12px;
+            list-style: none;
+        }
+        .child-b-b-cont{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            padding: 10px;
+            width: 90px;
+            background-color: rgb(49, 86, 250) ;
+            border-radius: 5px;
+            border: none;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main-body">
+        <div class="top-cont"></div>
+        <div class="bottom-cont">
+            <div class="child-b-t-cont">
+                <h2>Specifications:</h2>
+                <div class="small-child-cont">
+                    <ul>
+                        <li><i class="fa-sharp fa-regular fa-mobile" style="color: #00040a;"></i> 6.43" (1080*2400) pixels</li>
+                        <li><i class="fa-solid fa-camera" style="color: #050505;"></i> 50MP (2160p)</li>
+                        <li><i class="fa-solid fa-microchip" style="color: #030408;"></i> 6-12GB RAM (Dimensity 1200)</li>
+                        <li><i class="fa-solid fa-calendar-day" style="color: #010409;"></i> Released 2021, July 28</li>
+                        <li><i class="fa-solid fa-code" style="color: #010409;"></i> Android 11, OxygenOS 11.3</li>
+                        <li><i class="fa-regular fa-hard-drive" style="color: #000205;"></i> 128GB/256GB storage, no card slot</li>
+                        <li><i class="fa-solid fa-mobile-screen" style="color: #000205;"></i> 189g, 8.3mm thickness</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="child-b-b-cont">
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

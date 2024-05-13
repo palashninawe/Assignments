@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.parent-body{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-body{
+    width: 50%;
+    height: 15%;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.main-body{
+    width: 50%;
+    height: 85%;
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+.red{
+    width: 150px;
+    height: 120px;
+    background-color: #f87171;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.orange{
+    width: 150px;
+    height: 120px;
+    background-color: #fb923c;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.amber{
+    width: 150px;
+    height: 120px;
+    background-color: #fbbf24;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.yellow{
+    width: 150px;
+    height: 120px;
+    background-color: #facc15;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.lime{
+    width: 150px;
+    height: 120px;
+    background-color: #a3e635;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.green{
+    width: 150px;
+    height: 120px;
+    background-color: #4ade80;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.emerald{
+    width: 150px;
+    height: 120px;
+    background-color: #34d399;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cyan{
+    width: 150px;
+    height: 120px;
+    background-color: #22d3ee;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.lightblue{
+    width: 150px;
+    height: 120px;
+    background-color: #38bdf8;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.blue{
+    width: 150px;
+    height: 120px;
+    background-color: #60a5fa;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.indigo{
+    width: 150px;
+    height: 120px;
+    background-color: #818cf8;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.purple{
+    width: 150px;
+    height: 120px;
+    background-color: #c084fc;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.fuchsia{
+    width: 150px;
+    height: 120px;
+    background-color: #e879f9;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.pink{
+    width: 150px;
+    height: 120px;
+    background-color: #f472b6;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.rose{
+    width: 150px;
+    height: 120px;
+    background-color: #fb7185;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

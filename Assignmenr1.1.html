@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(163, 217, 238);
+            padding: 20px;
+        }
+        .main-body{
+            width: 100%;
+            height: 100%;   
+            display: flex;
+            flex-direction: row;
+        }
+        .left-cont{
+            width: 90%;
+            height: 100%; 
+            margin-right: 10px;
+        }
+        .top-cont{
+            width: 100%;
+            height: 55%; 
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+        .childleft-cont{
+            width: 70%;
+            height: 100%;
+            background-color:  rgb(223, 201, 7);
+            margin-right: 10px;
+        }
+        .childright-cont{
+            width: 30%;
+            height: 100%;                      
+        }
+        .childtop-cont{
+            width: 100%;
+            height: 60%;
+            background-color:  rgb(223, 201, 7);
+            margin-bottom: 10px;
+        }
+        .childbottom-cont{
+            width: 100%;
+            height: 37%;
+            background-color:  rgb(223, 201, 7);
+        }
+        .bottom-cont{
+            width: 100%;
+            height: 45%;           
+        }
+        .bottom-top-cont{
+            width: 100%;
+            height: 50%;
+             
+            margin-bottom: 10px; 
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .child-b-t-left-cont{
+            width: 33%;
+            height: 100%;
+            background-color: rgb(223, 201, 7); 
+            margin-right: 10px;
+        }
+        .child-b-t-right-cont{
+            width: 67%;
+            height: 100%;
+            background-color: rgb(223, 201, 7); 
+        }
+        .bottom-bottom-cont{
+            width: 100%;
+            height: 50%;
+            
+            display: flex;
+            flex-direction: row;
+        }
+        .child-b-b-cont1{
+            width: 33%;
+            height: 86%;
+            background-color: rgb(223, 201, 7); 
+            margin-right: 10px;
+        }
+        .child-b-b-cont2{
+            width: 33%;
+            height: 86%;
+            background-color: rgb(223, 201, 7); 
+            margin-right: 10px;
+        }
+        .child-b-b-cont3{
+            width: 33%;
+            height: 86%;
+            background-color: rgb(223, 201, 7); 
+        }
+        .right-cont{
+            width: 10%;
+            height: 100%;
+            background-color: rgb(223, 201, 7);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-body">
+        <div class="left-cont">
+            <div class="top-cont">
+                <div class="childleft-cont">Image1</div>
+                <div class="childright-cont">
+                    <div class="childtop-cont">Image2</div>
+                    <div class="childbottom-cont">Image3</div>
+                </div>
+            </div>
+            <div class="bottom-cont">
+                <div class="bottom-top-cont">
+                    <div class="child-b-t-left-cont">Image4</div>
+                    <div class="child-b-t-right-cont">Image5</div>
+                </div>
+                <div class="bottom-bottom-cont">
+                    <div class="child-b-b-cont1">Image6</div>
+                    <div class="child-b-b-cont2">Image7</div>
+                    <div class="child-b-b-cont3">Image8</div>
+                </div>
+            </div>
+        </div>
+        <div class="right-cont">Image9</div>
+    </div>
+    
+</body>
+</html>

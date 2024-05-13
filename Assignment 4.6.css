@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.parent-cont{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: row;
+}
+.left-main-body{
+    width: 22%;
+    height: 100vh;
+    background-color: rgb(30, 30, 65);
+    padding: 10px;
+    position: fixed;
+}
+.left-cont-1{
+    width: 100%;
+    height: 13%;
+    padding: 20px;
+}
+.heading1{
+    color: white;
+}
+.left-cont-2{
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 20px;
+}
+.p1{
+    font-size: 17px;
+    margin-left: 15px;
+    color: white;
+}
+.left-cont-3{
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.left-cont-4{
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 32, 243);
+    border-radius: 10px;
+}
+.left-cont-5{
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.left-cont-6{
+    width: 100%;
+    height: 10%;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+img{
+    border-radius: 15px;
+}
+
+.p2{
+    color: white;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.right-main-body{
+    width: 78%;
+    height: 100%;
+    padding: 20px;
+    margin-left: 350px;
+}
+.right-cont-1{
+    width: 100%;
+    height: 6%;
+    padding-top: 20px;
+}
+.heading2{
+    color: black;
+}
+.right-cont-2{
+    width: 100%;
+    height: 17%;
+    margin-bottom: 20px;
+}
+.child-cont-1{
+    width: 100%;
+    height: 20%;
+    padding-top: 10px;
+}
+.child-cont-2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.small-chlid-cont-2-1{
+    width: 25%;
+    height: 100%;
+    background-image: url(Car1.avif);
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.small-chlid-cont-2-2{
+    width: 25%;
+    height: 100%;
+    background-image: url(Car2.avif);
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.small-chlid-cont-2-3{
+    width: 25%;
+    height: 100%;
+    background-image: url(Car3.avif);
+    background-size: cover;
+    border-radius: 10px;
+}
+.right-cont-3{
+    width: 100%;
+    height: 17%;
+    margin-bottom: 20px;
+}
+.child-cont-3{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.small-chlid-cont-3-1{
+    width: 25%;
+    height: 100%;
+    background-image: url(Bike1.avif);
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.small-chlid-cont-3-2{
+    width: 25%;
+    height: 100%;
+    background-image: url(Bike2.avif);
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.small-chlid-cont-3-3{
+    width: 25%;
+    height: 100%;
+    background-image: url(Bike3.avif);
+    background-size: cover;
+    border-radius: 10px;
+}
+.right-cont-4{
+    width: 100%;
+    height: 17%;
+    margin-bottom: 20px;
+} 
+.child-cont-4{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.small-chlid-cont-4-1{
+    width: 25%;
+    height: 100%;
+    background-image: url(House1.avif);
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.small-chlid-cont-4-2{
+    width: 25%;
+    height: 100%;
+    background-image: url(House2.avif);
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.small-chlid-cont-4-3{
+    width: 25%;
+    height: 100%;
+    background-image: url(House3.avif);
+    background-size: cover;
+    border-radius: 10px;
+} 

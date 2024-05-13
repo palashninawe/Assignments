@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        .parent-body-small-device{
+            width: 100%;
+            height: 100%;
+        }
+        .child-top-cont{
+            width: 100%;
+            height: 35%;
+            background-image: url(Book3.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .child-bottom-cont{
+            width: 100%;
+            height: 65%;
+            background-color: rgb(18, 16, 26);
+            padding: 15px;
+            padding-top: 25px;
+            padding-bottom: 30px;
+        }
+        .child-b-top-cont{
+            width: 100%;
+            height: 25%;
+        }
+        .p1{
+            color: white;
+            font-size: 23px;
+        }
+        .child-b-bottom-cont{
+            width: 100%;
+            height: 75%;
+            background-color: white;
+            border-radius: 10px;
+            
+        }
+        .child-b-bottom-1-cont{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            flex-direction: row;
+        }
+        .d1{
+            width: 20%;
+            height: 100%;
+            padding: 10px;
+            padding-top: 15px;
+            padding-left: 20px;
+        }
+        .d2{
+            width: 80%;
+            height: 100%;
+            padding-top: 15px;
+        }
+        h4{
+            color: rgb(25, 2, 44);
+        }
+        .p2{
+            font-size: 15px;
+            color: gray;
+        }
+        .child-b-bottom-2-cont{
+            width: 100%;
+            height: 40%;
+            display: flex;
+            flex-direction: row;
+        }
+        .d3{
+            width: 20%;
+            height: 100%;
+            padding: 10px;
+            padding-top: 15px;
+            padding-left: 20px;
+        }
+        .d4{
+            width: 80%;
+            height: 100%;
+            padding-top: 15px;
+        }
+        .child-b-bottom-3-cont{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            flex-direction: row;
+        }
+        .d5{
+            width: 20%;
+            height: 100%;
+            padding: 10px;
+            padding-left: 20px;
+        }
+        .d6{
+            width: 80%;
+            height: 100%;
+            padding-top: 10px;
+        }
+        .parent-body-large-device{
+            display: none;
+        }
+        @media (min-width:768px) {
+           .parent-body-small-device{
+            display: none;
+           } 
+           .parent-body-large-device{
+            display: block;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+           }
+           .child-top-cont{
+            width: 40%;
+            height: 100vh;
+            background-image: url(Book3.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .child-bottom-cont{
+            width: 60%;
+            height: 100vh;
+            background-color: rgb(18, 16, 26);
+            padding: 15px;
+            padding-top: 25px;
+            padding-bottom: 30px;
+        }
+        .child-b-top-cont{
+            width: 100%;
+            height: 18%;
+            padding-top:20px;
+        }
+        .p1{
+            color: white;
+            font-size: 28px;
+            text-align: left;
+        }
+        .child-b-bottom-cont{
+            width: 100%;
+            height: 60%;
+            background-color: white;
+            border-radius: 10px;
+            
+        }
+        .d1{
+            width: 12%;
+            height: 100%;
+            padding: 10px;
+            padding-top: 15px;
+            padding-left: 25px;
+        }
+        .child-b-bottom-2-cont{
+            width: 100%;
+            height: 35%;
+            display: flex;
+            flex-direction: row;
+        }
+        .d3{
+            width: 12%;
+            height: 100%;
+            padding: 10px;
+            padding-top: 20px;
+            padding-left: 25px;
+        }
+        .d4{
+            width: 80%;
+            height: 100%;
+            padding-top: 20px;
+        }
+        .d5{
+            width: 12%;
+            height: 100%;
+            padding: 10px;
+            padding-left: 25px;
+        }
+        .d6{
+            width: 80%;
+            height: 100%;
+            padding-top: 10px;
+        }
+        h2{
+            color: rgb(25, 2, 44);
+        }
+        .p2{
+            font-size: 18px;
+            color: gray;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent-body-small-device">
+        <div class="child-top-cont"><img src="lightbulb (1).png" width="70px" height="70px"></div>
+        <div class="child-bottom-cont">
+            <div class="child-b-top-cont"><p class="p1">We design and develop <br> exceptional user experiences <br>across all mediums</p></div>
+            <div class="child-b-bottom-cont">
+                <div class="child-b-bottom-1-cont">
+                    <div class="d1"><img src="graphic-design.png" width="35px" height="35px"></div>
+                    <div class="d2"><h4>Design</h4><p class="p2">UX Design refers to the term User Experience 
+                    Design, While UI Design stands for User Interface Design </p></div>
+                </div>
+                <div class="child-b-bottom-2-cont">
+                    <div class="d3"><img src="tiles.png" width="35px" height="35px"></div>
+                    <div class="d4"><h4>Elements</h4><p class="p2">Design Elements are the fundamentals of all designs:
+                         form, shape and movement etc. <br> Having a solid understanding of which element to use.</p></div>
+                </div>
+                <div class="child-b-bottom-3-cont">
+                    <div class="d5"><img src="innovation.png" width="35px" height="35px"></div>
+                    <div class="d6"><h4>Support</h4><p class="p2">Design for Support is a methodology using a model-based architecture to optimize.</p></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="parent-body-large-device">
+        <div class="child-top-cont"><img src="lightbulb (1).png" width="90px" height="90px"></div>
+        <div class="child-bottom-cont">
+            <div class="child-b-top-cont"><p class="p1">We design and develop exceptional <br> user experiences across all mediums</p></div>
+            <div class="child-b-bottom-cont">
+                <div class="child-b-bottom-1-cont">
+                    <div class="d1"><img src="graphic-design.png" width="40px" height="40px"></div>
+                    <div class="d2"><h2>Design</h2><p class="p2">UX Design refers to the term User Experience 
+                    Design, While UI Design stands for User Interface Design </p></div>
+                </div>
+                <div class="child-b-bottom-2-cont">
+                    <div class="d3"><img src="tiles.png" width="40px" height="40px"></div>
+                    <div class="d4"><h2>Elements</h2><p class="p2">Design Elements are the fundamentals of all designs:
+                         form, shape and movement etc. Having a solid understanding of which element to use.</p></div>
+                </div>
+                <div class="child-b-bottom-3-cont">
+                    <div class="d5"><img src="innovation.png" width="40px" height="40px"></div>
+                    <div class="d6"><h2>Support</h2><p class="p2">Design for Support is a methodology using a model-based
+                         architecture to optimize.</p></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
